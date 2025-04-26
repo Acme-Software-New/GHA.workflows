@@ -1,6 +1,7 @@
 name: Node.js CI - with cache
 
 on:
+  workflow_call:
   workflow_dispatch:
 
 jobs:
