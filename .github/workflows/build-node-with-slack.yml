@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: checkout code
       uses: actions/checkout@v3
-    - uses: ./.github/actions/build-node
+    - uses: Acme-Software-New/GHA.workflows/.github/actions/build-node@main
     - name: Send custom JSON data to Slack workflow
       id: slack
       uses: slackapi/slack-github-action@v1.24.0
